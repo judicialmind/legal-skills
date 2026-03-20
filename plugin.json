@@ -1,0 +1,167 @@
+{
+  "$schema": "https://cdn.jsdelivr.net/npm/@anthropic/claude-code/plugin.schema.json",
+  "name": "legal-skills",
+  "version": "1.0.0",
+  "description": "Comprehensive legal practice skills for JudicialMind covering 30 practice areas, functional domains, and jurisdictions with expert-level guidance and research capabilities",
+  "author": "JudicialMind",
+  "repository": "https://github.com/judicialmind/legal-skills",
+  "skills": [
+    {
+      "name": "legal-research",
+      "path": "skills/legal-research/SKILL.md",
+      "description": "Legal research and case law analysis"
+    },
+    {
+      "name": "contract-lifecycle",
+      "path": "skills/contract-lifecycle/SKILL.md",
+      "description": "Contract drafting, review, and management"
+    },
+    {
+      "name": "litigation",
+      "path": "skills/litigation/SKILL.md",
+      "description": "Civil litigation and motion practice"
+    },
+    {
+      "name": "corporate-ma",
+      "path": "skills/corporate-ma/SKILL.md",
+      "description": "Corporate transactions and M&A"
+    },
+    {
+      "name": "document-drafting",
+      "path": "skills/document-drafting/SKILL.md",
+      "description": "Legal document generation"
+    },
+    {
+      "name": "intellectual-property",
+      "path": "skills/intellectual-property/SKILL.md",
+      "description": "Patents, trademarks, and copyrights"
+    },
+    {
+      "name": "real-estate",
+      "path": "skills/real-estate/SKILL.md",
+      "description": "Real estate transactions and leases"
+    },
+    {
+      "name": "employment-labor",
+      "path": "skills/employment-labor/SKILL.md",
+      "description": "Employment law and workplace compliance"
+    },
+    {
+      "name": "tax-law",
+      "path": "skills/tax-law/SKILL.md",
+      "description": "Tax compliance and planning"
+    },
+    {
+      "name": "immigration",
+      "path": "skills/immigration/SKILL.md",
+      "description": "Immigration law and visa applications"
+    },
+    {
+      "name": "criminal-defense",
+      "path": "skills/criminal-defense/SKILL.md",
+      "description": "Criminal defense and appeals"
+    },
+    {
+      "name": "family-law",
+      "path": "skills/family-law/SKILL.md",
+      "description": "Family law and domestic relations"
+    },
+    {
+      "name": "bankruptcy",
+      "path": "skills/bankruptcy/SKILL.md",
+      "description": "Bankruptcy filings and reorganization"
+    },
+    {
+      "name": "healthcare-law",
+      "path": "skills/healthcare-law/SKILL.md",
+      "description": "Healthcare compliance and HIPAA"
+    },
+    {
+      "name": "environmental-law",
+      "path": "skills/environmental-law/SKILL.md",
+      "description": "Environmental regulations and permits"
+    },
+    {
+      "name": "e-discovery",
+      "path": "skills/e-discovery/SKILL.md",
+      "description": "Electronic discovery and document review"
+    },
+    {
+      "name": "due-diligence",
+      "path": "skills/due-diligence/SKILL.md",
+      "description": "Transaction due diligence"
+    },
+    {
+      "name": "compliance-tracking",
+      "path": "skills/compliance-tracking/SKILL.md",
+      "description": "Regulatory compliance monitoring"
+    },
+    {
+      "name": "case-management",
+      "path": "skills/case-management/SKILL.md",
+      "description": "Legal case and matter management"
+    },
+    {
+      "name": "client-intake",
+      "path": "skills/client-intake/SKILL.md",
+      "description": "Client onboarding and conflicts"
+    },
+    {
+      "name": "legal-analytics",
+      "path": "skills/legal-analytics/SKILL.md",
+      "description": "Legal outcome prediction and analysis"
+    },
+    {
+      "name": "billing-operations",
+      "path": "skills/billing-operations/SKILL.md",
+      "description": "Legal billing and time tracking"
+    },
+    {
+      "name": "court-filings",
+      "path": "skills/court-filings/SKILL.md",
+      "description": "Court filing procedures and ECF"
+    },
+    {
+      "name": "deposition-prep",
+      "path": "skills/deposition-prep/SKILL.md",
+      "description": "Deposition preparation and summaries"
+    },
+    {
+      "name": "brief-writing",
+      "path": "skills/brief-writing/SKILL.md",
+      "description": "Appellate and motion brief drafting"
+    },
+    {
+      "name": "us-federal-courts",
+      "path": "skills/us-federal-courts/SKILL.md",
+      "description": "US federal court procedure"
+    },
+    {
+      "name": "india-legal",
+      "path": "skills/india-legal/SKILL.md",
+      "description": "Indian law and courts"
+    },
+    {
+      "name": "uk-commonwealth",
+      "path": "skills/uk-commonwealth/SKILL.md",
+      "description": "UK and Commonwealth law"
+    },
+    {
+      "name": "international-arbitration",
+      "path": "skills/international-arbitration/SKILL.md",
+      "description": "International arbitration and treaties"
+    },
+    {
+      "name": "regulatory-compliance",
+      "path": "skills/regulatory-compliance/SKILL.md",
+      "description": "Multi-sector regulatory compliance"
+    }
+  ],
+  "agents": [
+    {
+      "name": "legal-research-agent",
+      "path": "agents/legal-research-agent.md",
+      "description": "Autonomous legal research agent for comprehensive case law and statutory analysis"
+    }
+  ]
+}

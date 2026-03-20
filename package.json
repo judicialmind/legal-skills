@@ -1,0 +1,38 @@
+{
+  "name": "@judicialmind/legal-skills",
+  "version": "1.0.1",
+  "description": "Comprehensive legal practice skills library for AI coding assistants - 30 skills covering litigation, corporate, IP, real estate, employment, tax, immigration, criminal defense, family law, bankruptcy, healthcare, environmental law, and more. Compatible with Claude Code, OpenAI Codex, and other LLMs",
+  "keywords": [
+    "claude-code",
+    "claude-code-plugin",
+    "plugin",
+    "legal",
+    "law",
+    "litigation",
+    "corporate",
+    "contract",
+    "legal-research",
+    "e-discovery",
+    "compliance"
+  ],
+  "homepage": "https://github.com/judicialmind/legal-skills#readme",
+  "bugs": {
+    "url": "https://github.com/judicialmind/legal-skills/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/judicialmind/legal-skills.git"
+  },
+  "license": "MIT",
+  "author": "JudicialMind <surya@judicialmind.ai>",
+  "files": [
+    "plugin.json",
+    "skills/**/*",
+    "agents/**/*",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}
