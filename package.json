@@ -1,6 +1,6 @@
 {
   "name": "@judicialmind/legal-skills",
-  "version": "1.0.1",
+  "version": "1.1.0",
   "description": "Comprehensive legal practice skills library for AI coding assistants - 30 skills covering litigation, corporate, IP, real estate, employment, tax, immigration, criminal defense, family law, bankruptcy, healthcare, environmental law, and more. Compatible with Claude Code, OpenAI Codex, and other LLMs",
   "keywords": [
     "claude-code",
